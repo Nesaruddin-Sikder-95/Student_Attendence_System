@@ -1,0 +1,75 @@
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+background:#32526E;	
+	}
+.add_employee{
+   width:150px;
+   height:30px;
+   background:#06F;
+   text-align:center;
+   border-radius:20px;
+   position:fixed;
+   margin-top:10px;
+   margin-left:85%;
+   transition:all .1s ease-in-out 0s;
+	}
+.add_employee:hover{
+   	width:170px;
+  
+	}
+.add_employee a{
+     text-decoration:none;
+	 color:white;
+	 line-height:25px;	
+	}
+.header a{
+    float:left;	
+	padding:10px;
+	text-decoration:none;
+	color:#4195ED;
+	}
+.header a:hover{
+   color:white;	
+	}
+.header p{
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+	float:center;
+	color:#4195ED;
+	float:center;	
+}
+
+.main{
+   width:100%;
+   
+	}
+.main_container{
+   width:90%;
+   height:auto;
+   margin:auto;	
+	}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	background:#4195ED;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+	
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}

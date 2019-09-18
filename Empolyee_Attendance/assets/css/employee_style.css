@@ -1,0 +1,81 @@
+/* CSS Document */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+background:#32526E;	
+	}
+.header p {
+    text-align: center;
+    font-size: 40pt;
+    font-weight: bold;
+	color:#4195ED;
+}
+.main_section{
+    width: 100%;
+    height: 700px;
+   
+    
+}
+.main_section_container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+    background-color: ;
+}
+.user_info{
+    width: 100%;
+    height: 35px;
+    background-color:;
+	color:#4195ED;
+    
+}
+.user_info h2{
+      float:left;	
+	  
+	}
+.user_info form{
+     float:right;
+	
+	}
+.user_info form input{
+	border:none;
+	background:none;
+	color:#4195ED;
+	cursor:pointer;
+	}
+.user_attendance{
+    
+    width: 100%;
+    height:auto;
+    text-align:center;
+	color:#4195ED;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+	margin-top:10px;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: #4195ED;
+    color: white;
+}
